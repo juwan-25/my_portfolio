@@ -10,6 +10,11 @@ html, body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
 
 .section {
     width: 100%;
@@ -154,5 +159,47 @@ html, body {
         }
       }
     
+    .navbar {
+        height: 70px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        background:#F6F7FF;
+    }
+    
+    .navbar__menu {
+        margin: 0;
+        margin-right: 50px;
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+    
+    .navbar__menu li {
+        padding: 0 15px 0 15px;
+        
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #9F9F9F;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    
+    .navbar__menu :hover {
+        color: #181D4B;
+        font-weight: 600;
+    }
+
+    
+    .navbar__toogleBtn {
+        display: none;
+        position: absolute;
+        right: 32px;
+        font-size: 24px;
+    }
+
+
 }
 
