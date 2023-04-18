@@ -45,6 +45,7 @@ ul{
 
 @media (min-width: 1024px) {
 
+    /* 메인 이미지 마우스 오버 효과*/
     #hover {
         opacity: 0;
         visibility: none;
@@ -67,6 +68,7 @@ ul{
         height: auto;
     }
 
+    /* 메인 이미지 */
     #hover_img{
         width: 300px;
         height: auto;
@@ -88,8 +90,7 @@ ul{
         height: auto;
     }
 
-
-    
+    /* 메인 텍스트 */  
     #main_txt{
         font-weight: 700;
         font-size: 45px; 
@@ -105,6 +106,7 @@ ul{
         font-size: 60px; 
     }
     
+    /* 유도 화살표 */
     #down_img{
         width: 85px;
         height: auto;
@@ -112,6 +114,7 @@ ul{
         animation: animateDown 1.1s ease-in-out infinite;
     }
     
+    /* 유도 화살표 효과 */
     @keyframes animateDown {
         0% {
           transform: translateY(0);
@@ -157,8 +160,9 @@ ul{
           transform: translateY(15px);
           opacity: 0;
         }
-      }
+    }
     
+    /* 네브바 */
     .navbar {
         height: 70px;
         text-align: center;
@@ -166,40 +170,24 @@ ul{
         align-items: center;
         background:#F6F7FF;
     }
-    
-    .navbar__menu {
-        margin: 0;
-        margin-right: 50px;
-        padding: 0;
-        display: flex;
-        list-style: none;
-    }
-    
-    .navbar__menu li {
-        padding: 0 15px 0 15px;
-        
+
+    .navbar-nav{
+        padding-right: 2%;
     }
 
     .navbar a {
         text-decoration: none;
-        color: #9F9F9F;
+        color: #9F9F9F !important;
         font-weight: 600;
         font-size: 28px;
     }
     
-    .navbar__menu :hover {
-        color: #181D4B;
-        font-weight: 600;
+    .navbar a:hover {
+        color: #181D4B !important;
     }
 
-    
-    .navbar__toogleBtn {
-        display: none;
-        position: absolute;
-        right: 32px;
-        font-size: 24px;
+    .navbar a.active {
+        color: #181D4B !important;
     }
-
-
 }
 

@@ -2,6 +2,7 @@
 
 @media (max-width:478px){
 
+    /* 메인 이미지 마우스 오버 효과*/
     #hover {
         opacity: 0;
         visibility: none;
@@ -24,6 +25,7 @@
         height: auto;
     }
 
+    /* 메인 이미지 */
     #hover_img{
         margin-top: 15px;
         width: 180px;
@@ -46,8 +48,7 @@
         height: auto;
     }
 
-
-    
+    /* 메인 텍스트 */
     #main_txt{
         font-weight: 700;
         font-size: 25px; 
@@ -63,6 +64,7 @@
         font-size: 35px; 
     }
     
+    /* 유도 화살표 */
     #down_img{
         width: 40px;
         height: auto;
@@ -70,6 +72,7 @@
         animation: animateDown 1.1s ease-in-out infinite;
     }
     
+    /* 유도 화살표 효과 */
     @keyframes animateDown {
         0% {
           transform: translateY(0);
@@ -117,31 +120,39 @@
         }
     }
 
+    /* 네브바 */
+    .container-fluid{
+        padding: 0 !important;
+    }
+
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 24px;
-    }
-    
-    .navbar__menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .navbar__menu li {
-        width: 100%;
+        padding: 0 !important;
+        height: 55px;
         text-align: center;
-    }
-
-    .navbar__toogleBtn {
-        display: block;
-    }
-
-    .navbar__menu.active{
         display: flex;
+        align-items: center;
+        background:#F6F7FF;
     }
     
+    .navbar-toggler{
+        border: none !important;
+        margin: 8px 0 8px 10px;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: #d9d9d9 !important;
+        font-weight: 600;
+        font-size: 21px;
+        background-color: rgba(24, 29, 75, 0.6);
+    }
+    
+    .navbar a:hover {
+        color: #FFF !important;
+    }
+    
+    .navbar a.active {
+        color: #FFF !important;
+    }
 }
 
