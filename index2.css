@@ -127,7 +127,7 @@
 
     .navbar {
         padding: 0 !important;
-        height: 55px;
+        height: 44px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -136,7 +136,7 @@
     
     .navbar-toggler{
         border: none !important;
-        margin: 8px 0 8px 10px;
+        margin: 8px 10px 8px 0;
     }
     
     .navbar a {
