@@ -43,7 +43,7 @@ ul{
 
 /* 데스크탑 사이즈 */
 
-@media (min-width: 1024px) {
+@media (min-width: 993px) {
 
     /* 메인 이미지 마우스 오버 효과*/
     #hover {

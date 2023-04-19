@@ -1,6 +1,6 @@
 /* 태블릿 사이즈 */
 
-@media (min-width: 479px) and (max-width:1023px){
+@media (min-width: 479px) and (max-width:992px){
 
     /* 메인 이미지 마우스 오버 효과*/
     #hover {
