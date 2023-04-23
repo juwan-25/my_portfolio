@@ -52,7 +52,7 @@ ul{
         transition: all 0.5s ease-in-out;
     }
       
-    #hover:after {
+    #hover::after {
         
     }
       
@@ -64,36 +64,36 @@ ul{
     #main:hover #main_img {
         transition: 0.7s ease-out;
         margin: 3px;
-        width: 280px;
+        width: 28vh;
         height: auto;
     }
 
     /* 메인 이미지 */
     #hover_img{
-        width: 300px;
+        width: 31vh;
         height: auto;
         position: absolute;
     }
 
     #hover_txt{
         font-weight: 700;
-        font-size: 20px;
+        font-size: 2vh;
         position: relative;
-        top: 18px;
-        left: 153px;
+        top: 2vh;
+        left: 15.5vh;
     }
 
     #main_img{
         transition: 1s ease-out;
-        margin: 10px;
-        width: 269px;
+        margin: 1vh;
+        width: 27vh;
         height: auto;
     }
 
     /* 메인 텍스트 */  
     #main_txt{
         font-weight: 700;
-        font-size: 45px; 
+        font-size: 4.5vh; 
     }
 
     #h1{
@@ -103,14 +103,14 @@ ul{
 
     #h2{
         color: #181D4B;
-        font-size: 60px; 
+        font-size: 6vh; 
     }
     
     /* 유도 화살표 */
     #down_img{
-        width: 85px;
+        width: 8.5vh;
         height: auto;
-        margin-top: 140px;
+        margin-top: 20vh;
         animation: animateDown 1.1s ease-in-out infinite;
     }
     
@@ -164,7 +164,7 @@ ul{
     
     /* 네브바 */
     .navbar {
-        height: 70px;
+        height: 7vh;
         text-align: center;
         display: flex;
         align-items: center;
@@ -179,7 +179,7 @@ ul{
         text-decoration: none;
         color: #9F9F9F !important;
         font-weight: 600;
-        font-size: 28px;
+        font-size: 3.4vh;
     }
     
     .navbar a:hover {
@@ -189,5 +189,118 @@ ul{
     .navbar a.active {
         color: #181D4B !important;
     }
-}
 
+    /* 스킬셋 디테일 */
+    #skill {
+        font-weight: 600;
+
+    }
+
+    #skill_mtxt {
+        font-size: 3.4vh;
+        position: relative;
+        left: 9%;
+        margin-top: 6vh;
+        margin-bottom: 0;
+    }
+    
+    #ctn {
+        width: 8%;
+    }
+
+    #skill_detail {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: 1.5vh 0 1.5vh 0;
+    }
+
+    #skill_cont {
+        width: 32%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        perspective: 60vw;
+    }
+
+    #before, #after{
+        backface-visibility: hidden;
+        transition: 1s;
+    }
+
+    #before{
+        width: 23vw;
+        height: 65vh;
+        border: solid;
+        border-color: #181D4B;
+        border-radius:50px;
+        padding: 3vh;
+        margin: 24px;
+        display: inline-block;
+        position: absolute;
+        transform: rotateY(0deg);
+    }
+
+    #skill_cont:hover #before{
+        width: 25vw;
+        height: 65vh;
+        border: solid;
+        border-color: #181D4B;
+        border-radius:50px;
+        padding: 3vh;
+        margin: 24px;
+        display: inline-block;
+        transform: rotateY(180deg);
+    }
+    
+    #after{
+        width: 25vw;
+        height: 65vh;
+        border: solid;
+        border-color: #F6F7FF;
+        border-radius:50px;
+        background-color: #F6F7FF;
+        padding: 3vh;
+        margin: 24px;
+        display: inline-block;
+        transform: rotateY(-180deg);
+    }
+
+    #skill_cont:hover #after{
+        width: 25vw;
+        height: 65vh;
+        border: solid;
+        border-color: #F6F7FF;
+        border-radius:50px;
+        background-color: #F6F7FF;
+        padding: 3vh;
+        margin: 24px;
+        display: inline-block;
+        transform: rotateY(0deg);
+    }
+
+    #after img{
+        margin-bottom:0.5vh;
+    }
+
+    #sm {
+        font-size: 2.3vh;
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    #st {
+        font-size: 2.95vh;
+        position: relative;
+        top: 8vh;
+    }
+
+    #sd {
+        font-size: 2.4vh;
+        position: relative;
+        top: 8vh;
+        line-height: 200%;
+    }
+
+}
