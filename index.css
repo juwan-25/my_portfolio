@@ -230,7 +230,7 @@ ul{
     }
 
     #before{
-        width: 23vw;
+        width: 26.5vw;
         height: 65vh;
         border: solid;
         border-color: #181D4B;
@@ -243,7 +243,7 @@ ul{
     }
 
     #skill_cont:hover #before{
-        width: 25vw;
+        width: 26.5vw;
         height: 65vh;
         border: solid;
         border-color: #181D4B;
@@ -255,7 +255,7 @@ ul{
     }
     
     #after{
-        width: 25vw;
+        width: 26.5vw;
         height: 65vh;
         border: solid;
         border-color: #F6F7FF;
@@ -268,7 +268,7 @@ ul{
     }
 
     #skill_cont:hover #after{
-        width: 25vw;
+        width: 26.5vw;
         height: 65vh;
         border: solid;
         border-color: #F6F7FF;
@@ -285,22 +285,24 @@ ul{
     }
 
     #sm {
-        font-size: 2.3vh;
-        margin-top: 3vw;
+        font-size: 2vh;
+        margin-top: 4vw;
         margin-bottom: 1vw;
+        word-wrap: break-word;
     }
 
     #st {
-        font-size: 2.95vh;
+        font-size: 2.5vh;
         position: relative;
-        top: 8vh;
+        top: 6.6vw;
     }
 
     #sd {
-        font-size: 2.4vh;
+        font-size: 2vh;
         position: relative;
-        top: 8vh;
+        top: 6.8vw;
         line-height: 200%;
+        word-wrap: break-word;
     }
 
 }
