@@ -79,8 +79,8 @@ ul{
         font-weight: 700;
         font-size: 2vh;
         position: relative;
-        top: 2vh;
-        left: 15.5vh;
+        padding-top: 2vh;
+        padding-left: 31.5vh;
     }
 
     #main_img{
@@ -199,7 +199,7 @@ ul{
     #skill_mtxt {
         font-size: 3.4vh;
         position: relative;
-        left: 9%;
+        padding-left: 9%;
         margin-top: 6vh;
         margin-bottom: 0;
     }

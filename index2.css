@@ -37,8 +37,8 @@
         font-weight: 700;
         font-size: 12.5px;
         position: relative;
-        top: 26px;
-        left: 92px;
+        padding-top: 26px;
+        padding-left: 92px;
     }
 
     #main_img{
